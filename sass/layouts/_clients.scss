@@ -12,11 +12,11 @@
   height: 90px;
   align-items: center;
   justify-content: center;
-}
 
-.companies__link:hover,
-.companies__link:focus {
-  border: 1px solid var(--link-color);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--link-color);
+  }
 }
 
 .companies__icon {
