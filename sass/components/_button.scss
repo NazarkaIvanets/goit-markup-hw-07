@@ -19,9 +19,9 @@
   color: var(--white-color);
   transition: box-shadow var(--transition-whole), color var(--transition-whole),
     background-color var(--transition-whole);
-}
 
-.button:hover,
-.button:focus {
-  background-color: var(--submit-color);
+  &:hover,
+  &:focus {
+    background-color: var(--submit-color);
+  }
 }
