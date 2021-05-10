@@ -41,6 +41,11 @@
 
   transform: scale(1);
   transition: var(--transition-transform);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.15);
+  }
 }
 
 .modal__icon {
@@ -51,14 +56,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   fill: var(--title-color);
-}
 
-.modal__button:hover,
-.modal__button:focus {
-  transform: scale(1.15);
-}
-
-.modal__icon:hover,
-.modal__icon:focus {
-  fill: var(--link-color);
+  &:hover,
+  &:focus {
+    fill: var(--link-color);
+  }
 }

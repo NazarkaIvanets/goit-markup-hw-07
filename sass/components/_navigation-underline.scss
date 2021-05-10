@@ -10,9 +10,9 @@
   border-radius: 2px;
   transform: scaleX(0);
   transition: var(--transition-transform);
-}
 
-.nav-list__line:hover::after,
-.nav-list__line:focus::after {
-  transform: scaleX(1);
+  &:hover::after,
+  &:focus::after {
+    transform: scaleX(1);
+  }
 }

@@ -45,9 +45,11 @@
   margin-bottom: 4px;
 }
 
-.form-request__input:hover,
-.form-request__input:focus {
-  border-color: var(--link-color);
+.form-request__input {
+  &:hover,
+  &:focus {
+    border-color: var(--link-color);
+  }
 }
 
 .form-request__input:hover + .form-request__icon,
@@ -59,9 +61,11 @@
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-request__area:hover,
-.form-request__area:focus {
-  border-color: var(--link-color);
+.form-request__area {
+  &:hover,
+  &:focus {
+    border-color: var(--link-color);
+  }
 }
 
 .form-request__title {

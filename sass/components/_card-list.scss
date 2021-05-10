@@ -17,20 +17,13 @@
   height: 44px;
   color: var(--white-color);
   transition: background-color var(--transition-whole);
-}
-
-.card-list__link {
   fill: var(--clients-border-color);
-}
 
-.card-list__link:hover,
-.card-list__link:focus {
-  background-color: var(--link-color);
-}
-
-.card-list__link:hover,
-.card-list__link:focus {
-  fill: currentColor;
+  &:hover,
+  &:focus {
+    background-color: var(--link-color);
+    fill: currentColor;
+  }
 }
 
 .card-list__item:not(:last-child) {

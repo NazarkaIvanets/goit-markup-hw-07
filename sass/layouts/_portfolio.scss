@@ -54,17 +54,17 @@
   display: block;
   text-decoration: none;
   color: inherit;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .examples-list__link:hover .examples-list__text-block,
 .examples-list__link:focus .examples-list__text-block {
   transform: translateY(-100%);
   opacity: 1;
-}
-
-.examples-list__link:hover,
-.examples-list__link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .examples-list__title-block {
